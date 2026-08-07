@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "es2022",
     "module": "ESNext",
-    "baseUrl": "",
     "outDir": "",
     "types": ["node"],
     "skipLibCheck": true,
@@ -11,7 +10,7 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "moduleResolution": "Node",
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "sourceMap": true
